@@ -1,0 +1,23 @@
+
+.form-horizontal {
+  margin: 3rem auto;
+  width: 21rem;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 2rem;
+}
+label,
+input {
+  height: 2rem;
+  width: 14rem;
+}
+#btn{
+position: relative;
+left: 0rem;
+cursor: pointer;
+transition:left,0.5s;
+} 
